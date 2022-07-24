@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-nav,
+.navbar-brand {
+  font-weight: 600;
+}
+.navbar-nav a {
+  color: #fff;
+  font-weight: 600;
+  float: right;
+  text-align: center;
+  font-size: 14px;
+}
+.carousel-caption p {
+  font-size: 0.8rem;
+}
+#home-p {
+  font-size: 18px;
+}
+.carousel-caption h5 {
+  font-weight: 600;
+}
+
+.carousel-caption p {
+  font-weight: 300;
+}
+.pakage-one h4,
+p {
+  color: #848199;
+}
+.pakage-one h4 i {
+  background: #fef5fa;
+}
+
+#active i {
+  background: #e4e4e61f;
+}
+.pakage-one a {
+  background: #fef5fa;
+}
+.hot-item {
+  margin-top: -70px;
+  margin-left: 200px;
+}
+.toast-item-box {
+  margin-left: 120px;
+}
+.pakage-box h2 {
+  color: #747474;
+}
+.apps-box-item {
+  text-align: right;
+}
+@media (max-width: 1200px) {
+  .carousel-caption h5 {
+    font-size: 2.5rem;
+  }
+  .carousel-caption p {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 800px) {
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    font-size: 0.6rem;
+  }
+  .wedding-function {
+    text-align: center;
+  }
+  .wedding-write-box {
+    text-align: center;
+  }
+  .toast-item-box {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .toast-item-box {
+    margin-left: 00px;
+  }
+  .apps-box-item {
+    text-align: center;
+  }
+}
