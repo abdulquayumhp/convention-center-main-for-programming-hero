@@ -3,6 +3,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/*------------ navbar ----------- */
 .navbar-nav,
 .navbar-brand {
   font-weight: 600;
@@ -14,12 +15,13 @@ body {
   text-align: center;
   font-size: 14px;
 }
+
+/*------------ home sectin carousel ------------- */
 .carousel-caption p {
   font-size: 0.8rem;
 }
-#home-p {
-  font-size: 18px;
-}
+/*------------- carousel p ----------- */
+
 .carousel-caption h5 {
   font-weight: 600;
 }
@@ -27,6 +29,8 @@ body {
 .carousel-caption p {
   font-weight: 300;
 }
+
+/*---------------- pakage box h4 p ----------------- */
 .pakage-one h4,
 p {
   color: #848199;
@@ -34,26 +38,33 @@ p {
 .pakage-one h4 i {
   background: #fef5fa;
 }
-
+/*-------------------- pakage box heilight section bg-primary ------------------- */
 #active i {
   background: #e4e4e61f;
 }
 .pakage-one a {
   background: #fef5fa;
 }
+
+/*-------------------- pakage hot buttton ---------------- */
 .hot-item {
   margin-top: -70px;
   margin-left: 200px;
 }
+/*----------------- toast item margin ----------------- */
 .toast-item-box {
   margin-left: 120px;
 }
 .pakage-box h2 {
   color: #747474;
 }
+
+/*------------------- footer app ------------- */
 .apps-box-item {
   text-align: right;
 }
+
+/*-------------------- media 1200px --------------- */
 @media (max-width: 1200px) {
   .carousel-caption h5 {
     font-size: 2.5rem;
@@ -62,6 +73,8 @@ p {
     font-size: 0.6rem;
   }
 }
+
+/*-------------------- mdeia 800px ---------------- */
 @media (max-width: 800px) {
   .carousel-caption h5 {
     font-size: 1.5rem;
@@ -79,6 +92,7 @@ p {
     margin-left: 0px;
   }
 }
+/*---------------- media 500px --------------------- */
 @media (max-width: 500px) {
   .toast-item-box {
     margin-left: 00px;
